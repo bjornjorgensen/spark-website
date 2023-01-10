@@ -320,6 +320,22 @@ Example: `Fix typos in Foo scaladoc`
 1. If the change is a large change, consider inviting discussion on the issue at 
 `dev@spark.apache.org` first before proceeding to implement the change.
 
+
+Notice that, the public registration for https://issues.apache.org/ has been disabled due to spam. If you want to contribute to Spark, please send an email to [private@spark.apache.org](mailto:private@spark.apache.org) in the follow format so the Spark PMC members can acquire a jira account for you:
+
+```
+Subject: Request for Jira account
+
+Contents of the mail(should be in English):
+Preferred Jira Id: [a-z0-9]+
+Full Name:
+E-Mail Address:
+
+Reason: Jira Id you wish to contribute to, or details around the bug/feature you wish to report or work on.
+```
+
+> **_NOTE:_** we need to process the requests manually so it may take sometime, for example, up to a week, for us to respond to your request. 
+
 <h3>Pull request</h3>
 
 Before creating a pull request in Apache Spark, it is important to check if tests can pass on your branch because 
